@@ -228,7 +228,7 @@ main .hero .body{
     align-items: center;
 }
 .popular{
-    padding:0px 65px;
+    padding: 65px 0px; 
     margin-top: 135px;
 }
 .popular .popular-top .desc{
@@ -284,6 +284,55 @@ main .hero .body{
     font-size: 1.4rem;
     line-height: 1.86;
     margin-bottom: 12px;
+}
+.popular .popular-button .foot .btn:hover{
+    background-color: #ffb900;
+    border: none;
+}
+/* ==============feedback==================== */
+.feedback{
+    background-color: #2e2100;
+    margin-top: 135px;
+    padding: 96px 0px;
+    
+}
+.feedback .feedback-content{
+    background-color: #2e2100;
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.feedback .feedback-item .avatar{
+    width: 72px;height: 72px;
+    border-radius: 50%;
+}
+.feedback .feedback-item .member-name{
+    color:#f7f7f7;
+    font-family: Sen , sans-serif;
+    font-size: 24px;
+    font-weight:700;
+    margin-top: 21px;
+    margin-bottom: 4px;
+}
+.feedback .feedback-item .desc{
+    color:#bfbcb2;
+    font-family: poppins , sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+.feedback .content{
+    width: 65%;
+    margin-left: auto;
+}
+.feedback .content blockquote{
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.54;
+}
+blockquote{
+    quotes: none;
 }
 
 
